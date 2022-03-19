@@ -12,5 +12,8 @@
     "static"
   ],
   "author": "MadeByVilfer",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "snowpack": "^3.8.8"
+  }
 }
