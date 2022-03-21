@@ -1,0 +1,16 @@
+{
+  "imports": {
+    "/index.html": {
+      "entry": [
+        "/js/index.ueulaDx6.js"
+      ],
+      "css": [
+        "/css/style.4up6ly36.css"
+      ],
+      "js": [
+        "/js/index.ueulaDx6.js"
+      ]
+    }
+  },
+  "generated": {}
+}

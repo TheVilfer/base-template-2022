@@ -14,7 +14,17 @@ module.exports = {
   },
   plugins: [
     '@snowpack/plugin-typescript',
-    'snowpack-plugin-hash',
+    [
+      'snowpack-plugin-hash',
+      // Entirely optional object. Showing default values
+      {
+        // Name of custom tsconfig to use for compiler options passed to TypeScript compiler
+        // Configured length of your hashes
+        hashLength: 8,
+        // Name of file for asset manifest JSON
+        assetManifest: "optimize-manifest.json"
+      }
+    ],
     [
       '@snowpack/plugin-run-script', {
         cmd: 'eleventy',
@@ -28,15 +38,10 @@ module.exports = {
         "input": ['.js', '.mjs', '.jsx', '.ts', '.tsx'], // (optional) specify files for Babel to transform
       }
     ],
-    [
-      'snowpack-plugin-minify-html',
-      {
-        htmlMinifierOptions: {
-          sortAttributes: true,
-          removeComments: true,
-        },
-      },
-    ],
+    ["@snowpack/plugin-optimize", {
+      preloadModules: true,
+      preloadCSS: true
+    }]
   ],
   optimize: {
     bundle: true,
