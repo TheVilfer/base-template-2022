@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "index.js.map",
+  "mappings": "AAAA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC",
+  "names": [],
+  "sources": [
+    "// MadeByVilfer 2022\nconsole.log(\"Vilfer made it!\");/"
+  ],
+  "sourcesContent": [
+    "// MadeByVilfer 2022\nconsole.log(\"Vilfer made it!\");"
+  ]
+}

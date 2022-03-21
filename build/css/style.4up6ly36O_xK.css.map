@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "style.css.map",
+  "mappings": "AAAA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;",
+  "names": [],
+  "sources": [
+    "h1{color:pink}\n"
+  ],
+  "sourcesContent": [
+    "h1{color:pink}\n"
+  ]
+}
