@@ -1,6 +1,3 @@
-// Snowpack Configuration File
-// See all supported options: https://www.snowpack.dev/reference/configuration
-
 /** @type {import("snowpack").SnowpackUserConfig } */
 const fs = require('fs');
 const cert = fs.readFileSync('./localhost.cert');
@@ -16,12 +13,8 @@ module.exports = {
     '@snowpack/plugin-typescript',
     [
       'snowpack-plugin-hash',
-      // Entirely optional object. Showing default values
       {
-        // Name of custom tsconfig to use for compiler options passed to TypeScript compiler
-        // Configured length of your hashes
         hashLength: 8,
-        // Name of file for asset manifest JSON
         assetManifest: "optimize-manifest.json"
       }
     ],
